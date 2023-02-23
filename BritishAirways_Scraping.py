@@ -5,7 +5,7 @@ import scrapy
 # Create class
 class BritishAirlineReview(scrapy.Spider):
 
-    name = 'BritishAirlineReview'
+    name = 'BritishAirwaysReview'
     start_urls = ['https://www.airlinequality.com/airline-reviews/british-airways', ]
 
     def parse(self, response):
